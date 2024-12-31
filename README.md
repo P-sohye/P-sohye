@@ -2,7 +2,9 @@
 
 😄안녕하세요😄
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 <!--
 **P-sohye/P-sohye** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
