@@ -21,6 +21,48 @@ Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=black)
+#  Collaborative Projects
+
+이 저장소는 팀과 협업하여 진행한 주요 공동 프로젝트들을 정리한 공간입니다.  
+각 프로젝트의 기여 내역, 역할, 기술 스택 등을 확인하실 수 있습니다.
+
+---
+
+## 프로젝트 목록
+
+---
+
+### 1. [Propick – 맞춤형 단백질 보충제 추천 플랫폼](https://github.com/semi-ProPick)
+
+- **주제**: 건강 상태·섭취 목적 기반의 개인 맞춤 단백질 보충제 추천 플랫폼
+- **역할**:
+  - BMI 계산, 회피 성분, 섭취 용량 등 6단계 추천 로직 설계 및 API 구현
+  - 조건 우선순위 기반 분기 처리 및 예외 로직 설계
+  - 추천 결과를 그래프/텍스트로 시각화하는 큐레이션 응답 설계
+- **기술 스택**: Java, Spring Boot, MySQL, JWT 인증, Chart.js
+
+---
+
+### 2. [Readio – 감정·관심사 기반 독서 큐레이션 플랫폼](https://github.com/Team-Readio)
+
+- **주제**: 감정, 관심 키워드, 날씨 기반 유튜브 책 콘텐츠 추천 및 개인 서재 관리 웹서비스
+- **역할**:
+  - 사용자 감정·키워드 기반 콘텐츠 추천 API 설계 및 DB 모델링
+  - 프로필 공개 여부에 따른 콘텐츠 접근 제어 로직 구현 (조건부 렌더링)
+  - 사용자 클릭 로그 기반 관심사 통계 API 구현 (일/주/월 단위)
+- **기술 스택**: Spring Boot, JPA, JWT 인증, Swagger, AWS EC2, Chart.js
+
+---
+
+### 3. [대학 행정 자동화를 위한 생성형 AI 기반 문서 검토 시스템](https://github.com/P-sohye/CnuAiDocReviewer)
+
+- **주제**: 장학금 신청서 등 학생 제출 서류의 자동 검토 및 피드백 제공 AI 행정 시스템
+- **역할**:
+  - OpenAI GPT 기반 피드백 챗봇 플로우 설계 및 API 구현
+  - 필수 항목 누락 검출을 위한 규칙 기반 필드 추출 및 재제출 프로세스 설계
+  - 파일 업로드 및 상태 기반 처리 흐름 구현 (프론트–백 연동 포함)
+- **기술 스택**: Spring Boot, GPT-3.5, Tesseract OCR, MySQL, React
+
 
 Contact
 
